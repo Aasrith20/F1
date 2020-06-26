@@ -48,3 +48,4 @@ def Merge(segments,n):
 segments.sort()
 p=Merge(segments,len(segments))
 print(round(p,3))
+
