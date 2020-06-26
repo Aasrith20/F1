@@ -16,7 +16,7 @@ for i in range(2,n+1):
         q=t+1
         a.append(q)
         #print("second")
-    elif i%3==0x and i%2!=0:
+    elif i%3==0 and i%2!=0:
         t=min(a[w],a[i-1])
         q=t+1
         a.append(q)
@@ -34,9 +34,9 @@ for i in range(2,n+1):
     else:
         #print(i,e,"first",sep="|")
         b.append(e)
-print(list(enumerate(b)))
+#print(list(enumerate(b)))
 #print(list(enumerate(a)))
-print(a[n])
+#print(a[n])
 element=0
 ans=[n]
 if n>1:
